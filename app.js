@@ -815,7 +815,7 @@ function projectPoint(lat, lng, bearing, distance) {
 //                        total ≈ 92 values
 // ---------------------------------------------------------------------------
 function buildDistanceSteps() {
-  const steps = [];
+  const steps = [0];
   for (let d = 10;    d <= 100;    d += 5)    steps.push(d);
   for (let d = 125;   d <= 500;    d += 25)   steps.push(d);
   for (let d = 550;   d <= 1000;   d += 50)   steps.push(d);

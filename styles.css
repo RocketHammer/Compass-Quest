@@ -235,8 +235,10 @@ html, body {
 }
 
 #app.cast-active .compass-arrow,
-#app.cast-active .compass-tail {
+#app.cast-active .compass-tail,
+#app.cast-active .arrival-dot {
   opacity: 0;
+  animation: none;
 }
 
 /* Lock compass rose visible in cast mode */
